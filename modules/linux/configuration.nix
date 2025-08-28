@@ -109,7 +109,16 @@
     pkgs.wget
     pkgs.git
     pkgs.htop
+    pkgs.kitty
+
+    # Dev environments
+    pkgs.devenv
+
+    # Java/Kotlin
     pkgs.jdk
+    pkgs.maven
+    pkgs.gradle
+    pkgs.kotlin
 
     vscode
 #    (vscode-with-extensions.override {
